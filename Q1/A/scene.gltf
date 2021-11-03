@@ -1,0 +1,233 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3,
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_2"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Object_3"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "SolarBird_Final.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.0009570170077495277,
+                0.7071061730384827,
+                0.7071061730384827,
+                0.0009570170077495277
+            ],
+            "translation" : [
+                0,
+                -31.66536521911621,
+                0
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "SolarBird_Final",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Object_1.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "SolarBird_Final_baseColor",
+            "uri" : "SolarBird_Final_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 65927,
+            "max" : [
+                9.526668548583984,
+                1.6880604028701782,
+                45.9530143737793
+            ],
+            "min" : [
+                -10.307638168334961,
+                -1.5345531702041626,
+                16.42902183532715
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 65927,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 65927,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 310302,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7167,
+            "max" : [
+                9.470974922180176,
+                1.6908965110778809,
+                45.88848876953125
+            ],
+            "min" : [
+                -10.251832008361816,
+                -1.4748737812042236,
+                16.568405151367188
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7167,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7167,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 12993,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 427072,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53763,
+            "byteOffset" : 427072
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 480836,
+            "uri" : "scene3.bin"
+        }
+    ]
+}
