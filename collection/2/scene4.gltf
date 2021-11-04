@@ -1,0 +1,911 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                19
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Back_Cartridge_Mario1_0",
+            "rotation" : [
+                0.4644985795021057,
+                -0.7107554078102112,
+                -0.5066260099411011,
+                -0.14965921640396118
+            ],
+            "translation" : [
+                -11.625596046447754,
+                -5.631485939025879,
+                -2.017068862915039
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Back_Cartridge"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Bomberman_Bomberman1_0"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Bomberman"
+        },
+        {
+            "name" : "Controller_Cords"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Goldeneye_Goldeneye1_0"
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "Goldeneye"
+        },
+        {
+            "name" : "Ground_Plane"
+        },
+        {
+            "mesh" : 3,
+            "name" : "Mario_Mario1_0"
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "Mario"
+        },
+        {
+            "mesh" : 4,
+            "name" : "Mystical_Ninja_Mystical_Ninja1_0"
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "Mystical_Ninja"
+        },
+        {
+            "mesh" : 5,
+            "name" : "Star_Wars_Star_Wars1_0"
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "Star_Wars"
+        },
+        {
+            "mesh" : 6,
+            "name" : "Turok_Turok1_0"
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "Turok"
+        },
+        {
+            "children" : [
+                1,
+                3,
+                4,
+                6,
+                7,
+                9,
+                11,
+                13,
+                15
+            ],
+            "name" : "Scene",
+            "rotation" : [
+                0,
+                1,
+                0,
+                5.053215392444312e-16
+            ]
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                17
+            ],
+            "name" : "f121271e4b3a486eb0d2eeb215d89880.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ]
+        },
+        {
+            "children" : [
+                18
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.6433674097061157,
+                0,
+                0,
+                0.7655576467514038
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Mario1.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Bomberman1.001",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Goldeneye1.001",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mystical_Ninja1.001",
+            "normalTexture" : {
+                "index" : 9
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 10
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 11
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Star_Wars1.001",
+            "normalTexture" : {
+                "index" : 12
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 13
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 14
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Turok1.001",
+            "normalTexture" : {
+                "index" : 15
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 16
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 17
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Back_Cartridge_Mario1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Bomberman_Bomberman1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Goldeneye_Goldeneye1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Mario_Mario1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mystical_Ninja_Mystical_Ninja1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "indices" : 19,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "Star_Wars_Star_Wars1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "indices" : 23,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Turok_Turok1_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 24,
+                        "NORMAL" : 25,
+                        "TEXCOORD_0" : 26
+                    },
+                    "indices" : 27,
+                    "material" : 5
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        },
+        {
+            "sampler" : 0,
+            "source" : 10
+        },
+        {
+            "sampler" : 0,
+            "source" : 11
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
+        },
+        {
+            "sampler" : 0,
+            "source" : 13
+        },
+        {
+            "sampler" : 0,
+            "source" : 14
+        },
+        {
+            "sampler" : 0,
+            "source" : 15
+        },
+        {
+            "sampler" : 0,
+            "source" : 16
+        },
+        {
+            "sampler" : 0,
+            "source" : 17
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Mario1_normal",
+            "uri" : "Mario1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Mario1_baseColor",
+            "uri" : "Mario1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Mario1_metallicRoughness",
+            "uri" : "Mario1_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Bomberman1_normal",
+            "uri" : "Bomberman1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Bomberman1_baseColor",
+            "uri" : "Bomberman1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Bomberman1_metallicRoughness",
+            "uri" : "Bomberman1_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Goldeneye1_normal",
+            "uri" : "Goldeneye1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Goldeneye1_baseColor",
+            "uri" : "Goldeneye1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Goldeneye1_metallicRoughness",
+            "uri" : "Goldeneye1_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Mystical_Ninja1_normal",
+            "uri" : "Mystical_Ninja1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Mystical_Ninja1_baseColor",
+            "uri" : "Mystical_Ninja1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Mystical_Ninja1_metallicRoughness",
+            "uri" : "Mystical_Ninja1_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Star_Wars1_normal",
+            "uri" : "Star_Wars1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Star_Wars1_baseColor",
+            "uri" : "Star_Wars1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Star_Wars1_metallicRoughness",
+            "uri" : "Star_Wars1_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Turok1_normal",
+            "uri" : "Turok1_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Turok1_baseColor",
+            "uri" : "Turok1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Turok1_metallicRoughness",
+            "uri" : "Turok1_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10605,
+            "max" : [
+                -4.051624774932861,
+                1.4032409191131592,
+                8.681720733642578
+            ],
+            "min" : [
+                -14.554885864257812,
+                0.02304096519947052,
+                -0.4187299907207489
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10605,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10605,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 10613,
+            "max" : [
+                5.323624134063721,
+                3.414402961730957,
+                2.7110559940338135
+            ],
+            "min" : [
+                -4.5923662185668945,
+                -0.16973599791526794,
+                -4.484200954437256
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 10613,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 10613,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 10573,
+            "max" : [
+                11.835067749023438,
+                1.4141420125961304,
+                2.7584118843078613
+            ],
+            "min" : [
+                1.3455350399017334,
+                0.034866999834775925,
+                -5.93179178237915
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 10573,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 10573,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 10620,
+            "max" : [
+                6.071744918823242,
+                1.532291054725647,
+                -4.935708999633789
+            ],
+            "min" : [
+                -3.688220977783203,
+                0.0862710028886795,
+                -11.69681167602539
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 10620,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 10620,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 10667,
+            "max" : [
+                -4.706110954284668,
+                1.3815970420837402,
+                -1.232354998588562
+            ],
+            "min" : [
+                -12.880409240722656,
+                5.999999848427251e-05,
+                -11.638684272766113
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 10667,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 10667,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 10534,
+            "max" : [
+                14.509161949157715,
+                6.116942882537842,
+                7.534025192260742
+            ],
+            "min" : [
+                5.866133213043213,
+                0.027240000665187836,
+                2.636068105697632
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 10534,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 10534,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 10557,
+            "max" : [
+                4.704086780548096,
+                6.135354995727539,
+                8.270379066467285
+            ],
+            "min" : [
+                -4.438705921173096,
+                0.04565199837088585,
+                6.418652057647705
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 10557,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 10557,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5123,
+            "count" : 26022,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 127260,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127260,
+            "byteOffset" : 127260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84840,
+            "byteOffset" : 254520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 339360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127356,
+            "byteOffset" : 391404
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127356,
+            "byteOffset" : 518760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84904,
+            "byteOffset" : 646116
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 731020
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126876,
+            "byteOffset" : 783064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126876,
+            "byteOffset" : 909940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84584,
+            "byteOffset" : 1036816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 1121400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127440,
+            "byteOffset" : 1173444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 127440,
+            "byteOffset" : 1300884
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84960,
+            "byteOffset" : 1428324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 1513284
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128004,
+            "byteOffset" : 1565328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128004,
+            "byteOffset" : 1693332
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85336,
+            "byteOffset" : 1821336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 1906672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126408,
+            "byteOffset" : 1958716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126408,
+            "byteOffset" : 2085124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84272,
+            "byteOffset" : 2211532
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 2295804
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126684,
+            "byteOffset" : 2347848
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126684,
+            "byteOffset" : 2474532
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84456,
+            "byteOffset" : 2601216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52044,
+            "byteOffset" : 2685672
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2737716,
+            "uri" : "scene4.bin"
+        }
+    ]
+}

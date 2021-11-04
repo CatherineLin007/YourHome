@@ -1,0 +1,425 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2258,
+      "max": [
+        3.8172402381896973,
+        5.3952746391296387,
+        11.425954818725586
+      ],
+      "min": [
+        -3.8172402381896973,
+        -4.2765593528747559,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 27096,
+      "componentType": 5126,
+      "count": 2258,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2258,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2258,
+      "max": [
+        0.99593383073806763,
+        0.99666929244995117
+      ],
+      "min": [
+        0.0025895519647747278,
+        0.011442385613918304
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18064,
+      "componentType": 5126,
+      "count": 2258,
+      "max": [
+        0.99593383073806763,
+        0.99666929244995117
+      ],
+      "min": [
+        0.0025895519647747278,
+        0.011442385613918304
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6606,
+      "max": [
+        2257
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Crowcage (https://sketchfab.com/crowcage)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/building-54c487e434854b3e92ff2a82e3b6db2c",
+      "title": "Building"
+    },
+    "generator": "Sketchfab-6.10.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 26424,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36128,
+      "byteOffset": 26424,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54192,
+      "byteOffset": 62552,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36128,
+      "byteOffset": 116744,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 152872,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/gb001_mat_baseColor.png"
+    },
+    {
+      "uri": "textures/gb001_mat_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/gb001_mat_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaCutoff": 0.5,
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "gb001_mat",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "genericbuilding001_gb001_mat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "3ae6ca09f5654dc487b82bbafe02141c.fbx"
+    },
+    {
+      "children": [
+        4,
+        7,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        16.676487403391139,
+        -62.289200475108288,
+        76.432651871149332,
+        0,
+        64.118294234617949,
+        65.740436650731453,
+        39.58584764046519,
+        0,
+        -74.904867080367325,
+        42.40578372277696,
+        50.901968474014538,
+        0,
+        1281.9622802734375,
+        2509.076416015625,
+        763.2974853515625,
+        1
+      ],
+      "name": "Hemi.001"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        99.999999999999716,
+        -7.5497901264043296e-06,
+        0,
+        0,
+        7.5497901264043296e-06,
+        99.999999999999716,
+        0,
+        -186.94796752929688,
+        2967.274169921875,
+        -969.45782470703125,
+        1
+      ],
+      "name": "Hemi"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "genericbuilding001"
+    },
+    {
+      "mesh": 0,
+      "name": "genericbuilding001_gb001_mat_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
